@@ -1,0 +1,81 @@
+.App {
+  text-align: center;
+  background: rgb(0,0,0);
+  height: 100%;
+}
+.Year{
+  text-align: center;
+  background: rgb(0,0,0);
+  height: 100%;
+}
+.MouseImage{
+  background-image: url(../public/쥐띠.png);
+  background-position: center;
+  background-size:contain;
+  background-repeat: no-repeat;
+  width: 800px;
+  height: 700px;
+  margin: auto;
+}
+.Navbar{
+  position: fixed;
+}
+.pagination{
+display: flex;
+justify-content: center;
+margin: 16px 0px;
+}
+.SheepImage{
+  background-image: url(../public/양자리.png);
+  background-position: center;
+  background-size: cover;
+  width: 800px;
+  height: 700px;
+  margin: auto;
+
+}
+.container > ul{
+  color: gray;
+  list-style: none;
+  letter-spacing: 2px;
+}
+ul > p{
+  text-align: left;
+}
+
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+/* https://nani78.tistory.com/33 */
+/* https://bellchoi.co.kr/16 */
+/* https://blog.naver.com/PostView.naver?blogId=salesman191&logNo=222527979319&categoryNo=29&parentCategoryNo=-1&viewDate=&currentPage=&postListTopCurrentPage=&isAfterWrite=true */
