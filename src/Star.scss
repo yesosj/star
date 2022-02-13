@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Quintessential&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quintessential&display=swap');
+@mixin 함수(){
+    background-position: center;
+    background-size: cover;
+    width: 800px;
+    height: 750px;
+    margin: auto;
+  }
+  .Inline>.CowImage{
+    display: inline-block;
+  }
+
+  .SheepImage{
+    background-image: url(../public/양자리.png);
+    @include 함수();
+  
+  }
+  .CowImage{
+    background-image: url(../public/황소자리.png);
+    @include 함수();
+  }
+  .TwinImage{
+    background-image: url(../public/쌍둥이자리.png);
+    @include 함수();
+  }
+  .CrabImage{
+    background-image: url(../public/게자리.png);
+    @include 함수();
+  }
+  .LionImage{
+    background-image: url(../public/사자자리.png);
+    @include 함수();
+  }
+  .GirlImage{
+    background-image: url(../public/처녀자리.png);
+    @include 함수();
+  }
+  .BalanceImage{
+    background-image: url(../public/천칭자리.png);
+    @include 함수();
+  }
+  .ScorpionImage{
+    background-image: url(../public/전갈자리.png);
+    @include 함수();
+  }
+  .ArcherImage{
+    background-image: url(../public/궁수자리.png);
+    @include 함수();
+  }
+  .GoatImage{
+    background-image: url(../public/염소자리.png);
+    @include 함수();
+  }
+  .WaterBottleImage{
+    background-image: url(../public/물병자리.png);
+    @include 함수();
+  }
+  .FishImage{
+    background-image: url(../public/물고기자리.png);
+    @include 함수();
+  }
+  
+
+  .container > ul{
+    color: gray;
+    list-style: none;
+    letter-spacing: 2px;
+  }
+  ul > p{
+    text-align: left;
+  }
